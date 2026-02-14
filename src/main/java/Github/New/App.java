@@ -5,6 +5,7 @@ package Github.New;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Welcome to Jenkins");
+    	CseDemo demo = new CseDemo();
+        System.out.println(demo.add(2, 3));
     }
 }
